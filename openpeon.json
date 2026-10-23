@@ -1,0 +1,131 @@
+{
+  "cesp_version": "1.0",
+  "name": "protoss_probe",
+  "display_name": "Protoss Probe (StarCraft)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael Zijlstra",
+    "github": "mzijlstra"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "description": "Original StarCraft (1998) Protoss Probe unit sounds",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/combeep0.wav",
+          "label": "Comm beep",
+          "sha256": "159001528beaf7a9b4076a576043beb24797e4406d67b1e5de37e8bf21ba74db"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/ppryes00.wav",
+          "label": "Affirmative",
+          "sha256": "26d28ed0df06f3c09f6361eab44fb8f801811ed8cb6272cf9fb527f66f3c9386"
+        },
+        {
+          "file": "sounds/ppryes01.wav",
+          "label": "It shall be done",
+          "sha256": "9761f83dfaf47814dc1e36bc2d16cd1073b669f6decbfe4e5ec9e42170c14b2a"
+        },
+        {
+          "file": "sounds/ppryes02.wav",
+          "label": "Acknowledged",
+          "sha256": "3e9f9ebd3aa501c4de20e586dfb96fa2ba08876b61b50dbdab961fb334cfff62"
+        },
+        {
+          "file": "sounds/ppryes03.wav",
+          "label": "As you wish",
+          "sha256": "b02c86535407d6a866923d89b601e6bca510847fc8456c974d5fe84c81af0157"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/pprmin00.wav",
+          "label": "Resource delivered",
+          "sha256": "34487e1e633a166a02bb730ed71a437629b4c770ea58c26285abb95a30bcf01f"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/pprerr00.wav",
+          "label": "Unable to comply",
+          "sha256": "5a093b427ef268f2c082686a4a8569d08f27ed7821a9f1cdf2f5d7854b6ffd4d"
+        },
+        {
+          "file": "sounds/pprerr01.wav",
+          "label": "Not possible",
+          "sha256": "da0f9f6ad1a44aa9b415ef01ee56acdce9867ad5402c4cf7639eb5889c50738f"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/pprwht00.wav",
+          "label": "Awaiting orders",
+          "sha256": "780d3ff0918e7825e5c1f9b866573ec0c3619fb1323c5af548e1e3e3ae20f8a7"
+        },
+        {
+          "file": "sounds/pprwht01.wav",
+          "label": "Your command?",
+          "sha256": "add6c4e9710782259f92a84ac12a3a3a23981a8652993e3ea042b1f10116ccfd"
+        },
+        {
+          "file": "sounds/pprwht03.wav",
+          "label": "Standing by",
+          "sha256": "8e2adf81ecb98c9dc66748b12505669058f9e46e51a3ef22621e40550db160af"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/paderr00.wav",
+          "label": "Insufficient resources",
+          "sha256": "be5a10168ee76a0fca991fb379042b72699874395f3726c25925db8c1b81a731"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/ppratt00.wav",
+          "label": "Impatient probe",
+          "sha256": "c69fdbab4d62e45f1a862db2be0d112fc0dec98f15792088ccbe32b2a392fca9"
+        },
+        {
+          "file": "sounds/ppratt01.wav",
+          "label": "Enough!",
+          "sha256": "ee718e255d682002d55bdb97caac9005dad54874bd5d7a003c2c9327ba468b1f"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/pprdth00.wav",
+          "label": "Probe terminated",
+          "sha256": "64baa962e2c6c9434f6e79870f493a609dee35f39baf728830c0fb6b69d738f5"
+        }
+      ]
+    },
+    "task.progress": {
+      "sounds": [
+        {
+          "file": "sounds/pprrdy00.wav",
+          "label": "Warp in progress",
+          "sha256": "2faf8781fc207f54665f9d695e2ba1aaf208f47c05bb541c3a860c00803fc0bd"
+        }
+      ]
+    }
+  }
+}
